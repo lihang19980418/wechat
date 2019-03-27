@@ -1,0 +1,15 @@
+/* pages/index/index.wxss */
+.container{
+   height: 100vh;/*高100 视窗，写100%无效，含义一样*/
+   display: flex;/*布局模式*/
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+image{
+  width:300rpx;
+  border-radius: 50%;
+}
+text{
+  font-size: 50rpx;
+}
