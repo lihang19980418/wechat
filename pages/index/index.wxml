@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+<view calss="page">
+  <view calss="page_hd">
+  <button class="weui-btn" type="primary">页面主操作</button>
+  <button class ="weui-btn"type="primary" disabled="true">页面主操作 disable</button>
+  </view>
+  </view>
