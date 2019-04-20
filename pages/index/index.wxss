@@ -1,0 +1,39 @@
+/* pages/index/index.wxss */
+video{
+  width: 100%
+}
+.danmuArea {
+  display: flex;/*flex模型布局*/
+ flex-direction: row;/*水平方向排列*/
+}
+input {
+  border: 1rpx solid #987938;/*1rpx宽、实线棕色边框*/
+  flex-grow: 1; /*扩张多余空间宽度*/
+  height: 100rpx;/*高度*/
+}
+button {
+  color: white;/*字体颜色*/
+  background-color: #987938;/*背景颜色*/
+}
+.videoList {
+  width: 100%;/*宽度*/
+  min-height: 400rpx;/*最小高度*/
+}
+.videoBar {
+  width: 95%;/*宽度*/
+  display: flex;/*flex模型布局*/
+  flex-direction: row;/*水平方向布局*/
+  border-bottom: 1rpx solid #987938;/*1rpx宽、实线棕色边框*/
+  margin: 10rpx;/*外边距*/
+}
+image {
+  width: 70rpx;/*宽度*/
+  height: 70rpx;/*高度*/
+  margin: 20rpx;/*外边距*/
+}
+text {
+  font-size: 45rpx;/*字体大小*/
+  color: #987938;/*字体颜色为棕色*/
+  margin: 20rpx;/*外边距*/
+  flex-grow: 1; /*扩张多余空间宽度*/
+}
